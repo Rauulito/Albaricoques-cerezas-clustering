@@ -15,4 +15,3 @@ random.shuffle(frutas)
 #Guardado de las observaciones en un archivo
 dataFrame = pnd.DataFrame(frutas)
 dataFrame.to_csv("datas/frutas.csv", index=False,header=False)
-print()
