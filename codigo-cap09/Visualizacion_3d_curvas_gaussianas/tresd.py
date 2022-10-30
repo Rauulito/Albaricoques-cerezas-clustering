@@ -36,4 +36,3 @@ def dim_3():
     fig.colorbar(surf, shrink=0.5, aspect=5) # añadir barra de color indicando el PDF
     ax.view_init(60, 35)
     plt.show()
-dim_3()
