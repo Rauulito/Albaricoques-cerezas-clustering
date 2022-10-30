@@ -31,23 +31,18 @@ def iniciar():
         if opcion == '1':
             while True:
                 print("¿Qué opción quieres escoger?")
-                print("[1] Informacion Transformacion")
-                print("[2] Normalizacion")
-                print("[3] Stopwords")
+                print("[1] aprendizaje_no_supervisado")
+                print("[2] genaricon_de_datos")
+                print("[3] Visualizacion_3D_curvas_gaussianas")
+                print("[4] Volver al menu principal")
                 opcion2 = input("> ")
                 if opcion2 == '1':
-                    Info_original()
+                    print()
                 elif opcion2 == '2':
-                    normalizacion2()
+                    print()
                 elif opcion2 == '3':
-                    Stop_words()
+                    print()
                 elif opcion2 == '4':
-                    stemming()
-                elif opcion2 == '5':
-                    lematizacion()
-                elif opcion2 == '6':
-                    canalizacion()
-                elif opcion2 == '7':
                     print("Volviendo...")
                     break
         if opcion == '2':
