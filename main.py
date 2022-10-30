@@ -6,7 +6,7 @@ sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaric
 sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/Visualizacion_3d_curvas_gaussianas")
 #Importamos funciones
 from aprendizaje_k_mean import aprendizaje
-from clustering2 import clustering
+from clustering2 import clustering2
 from datos import datos
 from cerezas import cerezas
 from albarocoques import albaricoques
@@ -24,7 +24,7 @@ def iniciar():
         print("========================")
         print("  Bienvenido al Albaricoques-Cerezas-Clustering  ")
         print("========================")
-        print("[1] Escoga la carpeta y con ello la funcion de ella que quiere escoger")
+        print("[1] Escoga la carpeta")
         print("[2] Cerrar el Gestor    ")
         print("========================")
 
@@ -39,11 +39,16 @@ def iniciar():
                 print("[4] Volver al menu principal")
                 opcion2 = input("> ")
                 if opcion2 == '1':
-                    print()
+                    aprendizaje()
+                    clustering2()
+                    datos()
                 elif opcion2 == '2':
-                    print()
+                    albaricoques()
+                    cerezas()
+                    clustering()
                 elif opcion2 == '3':
-                    print()
+                    dim_2()
+                    dim_3()
                 elif opcion2 == '4':
                     print("Volviendo...")
                     break
