@@ -1,21 +1,26 @@
 #pruebas
+#Importamos directorios
 import sys
-sys.path.insert(0, "C:\Users\rauln\Documents\Desarrolo orientado a objetos\Albaricoques-cerezas-clustering\codigo-cap09\datas")
-from InformacionTransformacion import Info_original
-from normalizacion import normalizacion2
-from Stopwords import Stop_words
-from stemming import stemming
-from lematizacion import lematizacion
-from canalizacion import canalizacion
+sys.path.insert(0,"/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/aprendizaje_no_supervisado" )
+sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/generacion_de_datos")
+sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/Visualizacion_3d_curvas_gaussianas")
+#Importamos funciones
+from aprendizaje_k_mean import 
+from aprendizeje_no_supervisado import 
+from clustering2 import stemming
+from cerezas import lematizacion
+from albaricoques import canalizacion
+from clustering import Info_original
+
 
 def iniciar():
     print("Iniciando...")
-    
+
 def iniciar():
     while True:
 
         print("========================")
-        print("  Bienvenido al Gestor  ")
+        print("  Bienvenido al Albaricoques-Cerezas-Clustering  ")
         print("========================")
         print("[1] Ejecute el programa")
         print("[2] Ejecute alguna funcion en concreto")
