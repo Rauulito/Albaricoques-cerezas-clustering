@@ -5,12 +5,14 @@ sys.path.insert(0,"/Users/rauln/Documents/Desarrolo orientado a objetos/Albarico
 sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/generacion_de_datos")
 sys.path.insert(0, "/Users/rauln/Documents/Desarrolo orientado a objetos/Albaricoques-cerezas-clustering/codigo-cap09/Visualizacion_3d_curvas_gaussianas")
 #Importamos funciones
-from aprendizaje_k_mean import
-from aprendizeje_no_supervisado import
-from clustering2 import
-from cerezas import
-from albaricoques import
-from clustering import
+from aprendizaje_k_mean import aprendizaje
+from clustering2 import clustering
+from datos import datos
+from cerezas import cerezas
+from albarocoques import albaricoques
+from clustering import clustering
+from dosd import  dim_2
+from tresd import dim_3
 
 
 def iniciar():
