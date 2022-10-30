@@ -6,7 +6,7 @@ import pandas as pnd
 
 
 #Constitución de las observaciones
-frutas = cerezas+albaricoques
+frutas = cerezas.cerezas+albaricoques.albaricoques #Estamos cogiendo las listas de cerezas y albaricoques y las unimos en una sola lista
 print(frutas)
 
 #Mezcla de las observaciones
