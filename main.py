@@ -9,7 +9,7 @@ from aprendizaje_k_mean import aprendizaje
 from clustering2 import clustering2
 from datos import datos
 from cerezas import cerezas
-from albarocoques import albaricoques
+from albaricoques import albaricoques
 from clustering import clustering
 from dosd import  dim_2
 from tresd import dim_3
